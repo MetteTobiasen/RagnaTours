@@ -30,6 +30,31 @@ namespace RagnaTours.Services
             }
         }
 
+        public void RemoveTheme(Theme theme)
+        {
+             
+        }
+
+        public void UpdateTheme(Theme theme)
+        {
+
+        }  
+        
+        public Dictionary<int, Theme> SearchTheme(string criteria)
+        {
+            Dictionary<int, Theme> searchThemes= new Dictionary<int, Theme>();
+            if (criteria != null)
+            {
+                foreach (var t in themes.Values)
+                {
+                    if (t.Name.StartWith(criteria))
+                    {
+                        searchThemes.Add(t.Id, t);
+                    }
+                }
+            }
+            return searchThemes;  
+        }
 
 
 
