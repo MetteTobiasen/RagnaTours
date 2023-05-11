@@ -22,13 +22,13 @@ namespace RagnaTours.Services
             return themes;  
         }
 
-        public void AddTheme(Theme theme)
-        {
-            if (!themes.Keys.Contains(theme.Id))
-            {
-                themes.Add(theme.Id, theme);
-            }
-        }
+        //public void AddTheme(Theme theme)
+        //{
+        //    if (!themes.Keys.Contains(theme.Id))
+        //    {
+        //        themes.Add(theme.Id, theme);
+        //    }
+        //}
 
         public void RemoveTheme(Theme theme)
         {
@@ -40,21 +40,21 @@ namespace RagnaTours.Services
 
         }  
         
-        public Dictionary<int, Theme> SearchTheme(string criteria)
-        {
-            Dictionary<int, Theme> searchThemes= new Dictionary<int, Theme>();
-            if (criteria != null)
-            {
-                foreach (var t in themes.Values)
-                {
-                    if (t.Name.StartWith(criteria))
-                    {
-                        searchThemes.Add(t.Id, t);
-                    }
-                }
-            }
-            return searchThemes;  
-        }
+        //public Dictionary<int, Theme> SearchTheme(string criteria)
+        //{
+        //    Dictionary<int, Theme> searchThemes= new Dictionary<int, Theme>();
+        //    if (criteria != null)
+        //    {
+        //        foreach (var t in themes.Values)
+        //        {
+        //            if (t.Name.StartWith(criteria))
+        //            {
+        //                searchThemes.Add(t.Id, t);
+        //            }
+        //        }
+        //    }
+        //    return searchThemes;  
+        //}
 
 
 
