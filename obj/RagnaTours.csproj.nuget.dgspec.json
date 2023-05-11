@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tobia\\source\\repos\\RagnaTours\\RagnaTours.csproj": {}
+    "C:\\Users\\kheng\\Source\\Repos\\RagnaTours\\RagnaTours.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tobia\\source\\repos\\RagnaTours\\RagnaTours.csproj": {
+    "C:\\Users\\kheng\\Source\\Repos\\RagnaTours\\RagnaTours.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tobia\\source\\repos\\RagnaTours\\RagnaTours.csproj",
+        "projectUniqueName": "C:\\Users\\kheng\\Source\\Repos\\RagnaTours\\RagnaTours.csproj",
         "projectName": "RagnaTours",
-        "projectPath": "C:\\Users\\Tobia\\source\\repos\\RagnaTours\\RagnaTours.csproj",
-        "packagesPath": "C:\\Users\\Tobia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tobia\\source\\repos\\RagnaTours\\obj\\",
+        "projectPath": "C:\\Users\\kheng\\Source\\Repos\\RagnaTours\\RagnaTours.csproj",
+        "packagesPath": "C:\\Users\\kheng\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kheng\\Source\\Repos\\RagnaTours\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tobia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
