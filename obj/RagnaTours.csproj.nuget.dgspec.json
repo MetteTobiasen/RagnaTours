@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tobia\\source\\repos\\RagnaTours\\RagnaTours.csproj": {}
+    "C:\\Users\\richa\\source\\repos\\RagnaTours\\RagnaTours.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tobia\\source\\repos\\RagnaTours\\RagnaTours.csproj": {
+    "C:\\Users\\richa\\source\\repos\\RagnaTours\\RagnaTours.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tobia\\source\\repos\\RagnaTours\\RagnaTours.csproj",
+        "projectUniqueName": "C:\\Users\\richa\\source\\repos\\RagnaTours\\RagnaTours.csproj",
         "projectName": "RagnaTours",
-        "projectPath": "C:\\Users\\Tobia\\source\\repos\\RagnaTours\\RagnaTours.csproj",
-        "packagesPath": "C:\\Users\\Tobia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tobia\\source\\repos\\RagnaTours\\obj\\",
+        "projectPath": "C:\\Users\\richa\\source\\repos\\RagnaTours\\RagnaTours.csproj",
+        "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\richa\\source\\repos\\RagnaTours\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tobia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
