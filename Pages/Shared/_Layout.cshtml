@@ -9,49 +9,44 @@
     <link rel="stylesheet" href="~/RagnaTours.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <a class="navbar-brand" href="#">
-                <img src="/Images/Logo.png" width="30" height="30"  class="d-inline-block align-top" alt="">
-              
-            </a>
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">RagnaTours</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+    <header
+        @*Navbar from https://getbootstrap.com/docs/5.0/components/navbar/*@
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar_design">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/Index">
+                    <img src="/images/logo.png" alt="ragnatours_logo" width="50" height="50"/>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/Index">Forside</a>
+                        </li>
                         <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Museum</a>
-                            <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">Temaer</a>
-                                <a href="#" class="dropdown-item">Udstillinger</a>
-                                <a href="#" class="dropdown-item">Kort</a>
-                            </div>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Start</a>
+                            <a id="nav_dropdown" class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Museum
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="/Themes">Temaer</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="/Exhibitions">Udstillinger</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="/Map">Kort</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/AboutUs">Om os</a>
+                            <a class="nav-link active" aria-current="page" href="/AboutUs">Om os</a>
                         </li>
-                        <form>
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Start</button>
-                        </form>
-                        <li class="nav-item dropdown ms-auto">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Admin</a>
-                            <div class="dropdown-menu dropdown-menu-end">
-                                <a href="#" class="dropdown-item">Administrator</a>
-                                <a href="#" class="dropdown-item">Gæst</a>
-                            </div>
-                        </li>
-                        
-                       
                     </ul>
+                    <form class="d-flex" action="/StartTour">
+                        <button id="button_start_tour" class="btn" type="submit">START TOUR</button>
+                    </form>
                 </div>
             </div>
         </nav>
+    
     </header>
     <div class="container">
         <main role="main" class="pb-3">

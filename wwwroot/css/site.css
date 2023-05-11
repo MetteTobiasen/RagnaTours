@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
@@ -15,4 +17,27 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+
+#nav_dropdown {
+    color: black;
+}
+
+#button_start_tour {
+    background: #ffbd59;
+    border-radius: 9px;
+    transition-duration: 0.4s;
+    border: 2px solid;
+    border-color: black;
+}
+
+#button_start_tour:hover {
+    background: #f8f9fa;
+    border: 2px solid;
+    border-color: #ffbd59;
+}
+
+.navbar_design {
+    font-family: 'New Rocker', cursive;
+    font-size: 1.4em;
 }
