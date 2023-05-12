@@ -23,10 +23,10 @@ namespace RagnaTours.Pages
 
         public IActionResult OnGet()
         {
-            Exhibitions = catalog.AllExhibitions();
+            Exhibitions = catalog.AllExhibition();
             if (!string.IsNullOrEmpty(FilterCriteria))
             {
-                Exhibitions = catalog.FilterPizza(FilterCriteria);
+                Exhibitions = catalog.FilterExhibition(FilterCriteria);
             }
 
             return Page();
