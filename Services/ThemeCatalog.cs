@@ -14,7 +14,10 @@ namespace RagnaTours.Services
 
         public ThemeCatalog()
         {
-            themes = new Dictionary<int, Theme>();  
+            themes = new Dictionary<int, Theme>();
+            themes.Add(1, new Theme() {Id = 1, Name = "Ragnerock", Description = "test test test", ImageName = "RagnerockUdstilling"  });
+            themes.Add(2, new Theme() {Id = 2, Name = "Roskilde Festival", Description = "test test test", ImageName = "RoskildeFestival" });
+            themes.Add(3, new Theme() {Id = 3, Name = "Skanderborg Festival", Description = "test test test", ImageName = "SkanderborgFestival" });
         }
 
         public Dictionary<int, Theme> AllThemes()
@@ -30,14 +33,25 @@ namespace RagnaTours.Services
             }
         }
 
-        public void RemoveTheme(Theme theme)
+        public Theme GetTheme(int id)
         {
-             
+            return themes[id];
+        }
+
+        public void DeleteTheme(Theme theme)
+        {
+             if(theme != null)
+            {
+                themes.Remove(theme.Id);    
+            }
         }
 
         public void UpdateTheme(Theme theme)
         {
-
+            if (theme != null)
+            {
+                themes[theme.Id] = theme;
+            }
         }
 
         public Dictionary<int, Theme> SearchTheme(string criteria)
@@ -47,7 +61,7 @@ namespace RagnaTours.Services
             {
                 foreach (var t in themes.Values)
                 {
-                    if (t.Name.StartWith(criteria))
+                    if (t.Name.StartsWith(criteria))
                     {
                         searchThemes.Add(t.Id, t);
                     }
@@ -55,8 +69,6 @@ namespace RagnaTours.Services
             }
             return searchThemes;
         }
-
-
 
     }
 }
