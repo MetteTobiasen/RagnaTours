@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using RagnaTours.Interfaces;
 using RagnaTours.Models;
 
-namespace RagnaTours.Pages
+namespace RagnaTours
 {
     public class GetAllExhibitionsModel : PageModel
     {
