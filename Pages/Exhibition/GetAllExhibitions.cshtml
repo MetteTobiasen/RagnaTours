@@ -1,8 +1,62 @@
 ﻿@page
-@model PrivacyModel
+@model RagnaTours.GetAllExhibitionsModel
 @{
-    ViewData["Title"] = "Udstillinger";
+    ViewData["Title"] = "GetAllExhibitions";
 }
-<h1>@ViewData["Title"]</h1>
+<h1>Udstillinger</h1>
+
+<p>
+    <a asp-page="CreateExhibition">Tilføj udstilling</a>
+</p>
+
+<form>
+    <p>
+        Search: <input type="text" asp-for="FilterCriteria" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Image
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Exhibitions)
+        {
+            <tr>
+                <td>
+                    @item.Value.Id
+                </td>
+                <td>
+                    @item.Value.Name
+                </td>
+                <td>
+                    @item.Value.Description
+                </td>
+                <td>
+                    @item.Value.Price
+                </td>
+                <td>
+                    <img src="~/Images/@item.Value.ImageName" width="60" height="70">
+                </td>
+            </tr>
+        }
+    </tbody>
+    
+</table>
 
 
