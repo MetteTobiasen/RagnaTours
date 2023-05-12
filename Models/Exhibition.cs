@@ -9,11 +9,5 @@ namespace RagnaTours.Models
         public string Description { get; set; }
         public string ImageName { get; set; }
 
-        private Dictionary<int, Exhibition> exhibition { get; }
-
-        //public ExhibitionCatalog() 
-        //{ 
-        //    exhibition = new Dictionary<int, Exhibition>();
-        //}
     }
 }
