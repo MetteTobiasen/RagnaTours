@@ -6,7 +6,7 @@ namespace RagnaTours.Interfaces
     {
         Dictionary<int, Theme> AllThemes();
         void AddTheme(Theme theme);
-        void RemoveTheme(Theme theme);
+        void DeleteTheme(Theme theme);
         void UpdateTheme(Theme theme);
         Dictionary<int, Theme> SearchTheme(string criteria);
     }
