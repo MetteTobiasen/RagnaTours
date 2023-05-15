@@ -2,8 +2,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using RagnaTours.Interfaces;
 using RagnaTours.Models;
+using RagnaTours.Pages;
+using RagnaTours.Services;
 
-namespace RagnaTours.Pages.Exhibition
+namespace RagnaTours
 {
     public class CreateExhibitionModel : PageModel
     {
