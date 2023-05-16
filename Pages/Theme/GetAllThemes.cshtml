@@ -1,5 +1,63 @@
 ﻿@page
-@model RagnaTours.Pages.TemaerModel
+@model RagnaTours.GetAllThemesModel
 @{
+    ViewData["Title"] = "GetAllThemes";
 }
 <h1>Temaer</h1>
+
+<p>
+    <a asp-page="CreateTheme">Tilføj tema</a>
+</p>
+
+<form>
+    <p>
+        Search: <input type="text" asp-for="FilterCriteria" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Image
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Themes)
+        {
+            <tr>
+                <td>
+                    @item.Value.Id
+                </td>
+                <td>
+                    @item.Value.Name
+                </td>
+                <td>
+                    @item.Value.Description
+                </td>
+                <td>
+                    <img src="~/Images/@item.Value.ImageName" width="60" height="70">
+                </td>
+                <td>
+                    <p>
+                        <a asp-page="EditTheme" asp-route-id="@item.Key">Edit</a> |
+                        <a asp-page="DeleteTheme" asp-route-id="@item.Key">Delete</a>
+                    </p>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
