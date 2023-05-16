@@ -70,3 +70,7 @@ body {
 .footer ul a:hover {
     opacity: 1;
 }
+
+.img_carousel {
+    height: 600px;
+}
