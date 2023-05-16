@@ -7,9 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Test\" />
-    <Folder Include="Pages\Exhibitions\" />
-    <Folder Include="Pages\Themes\" />
+    <Compile Remove="Pages\Exhibitions\**" />
+    <Compile Remove="Pages\Themes\**" />
+    <Compile Remove="Test\**" />
+    <Content Remove="Pages\Exhibitions\**" />
+    <Content Remove="Pages\Themes\**" />
+    <Content Remove="Test\**" />
+    <EmbeddedResource Remove="Pages\Exhibitions\**" />
+    <EmbeddedResource Remove="Pages\Themes\**" />
+    <EmbeddedResource Remove="Test\**" />
+    <None Remove="Pages\Exhibitions\**" />
+    <None Remove="Pages\Themes\**" />
+    <None Remove="Test\**" />
   </ItemGroup>
 
   <ItemGroup>
