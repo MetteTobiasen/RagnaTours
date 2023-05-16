@@ -22,7 +22,7 @@ namespace RagnaTours
             Themes = catalog.AllTheme();
             if (!string.IsNullOrEmpty(FilterCriteria))
             {
-                Themes = catalog.FilterTheme(FilterCriteria);
+                Themes = catalog.SearchTheme(FilterCriteria);
             }
 
             return Page();
