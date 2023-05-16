@@ -19,7 +19,7 @@ namespace RagnaTours
 
         public IActionResult OnGet()
         {
-            Themes = catalog.AllTheme();
+            Themes = catalog.AllThemes();
             if (!string.IsNullOrEmpty(FilterCriteria))
             {
                 Themes = catalog.SearchTheme(FilterCriteria);
