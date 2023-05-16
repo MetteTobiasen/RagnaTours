@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RagnaTours
 build_property.RootNamespace = RagnaTours
-build_property.ProjectDir = C:\Users\richa\Source\Repos\RagnaTours\
+build_property.ProjectDir = C:\Users\Tobia\Source\Repos\RagnaTours\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\richa\Source\Repos\RagnaTours
+build_property.MSBuildProjectDirectory = C:\Users\Tobia\Source\Repos\RagnaTours
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/richa/Source/Repos/RagnaTours/Pages/AboutUs.cshtml]
+[C:/Users/Tobia/Source/Repos/RagnaTours/Pages/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRVcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/richa/Source/Repos/RagnaTours/Pages/Error.cshtml]
+[C:/Users/Tobia/Source/Repos/RagnaTours/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/richa/Source/Repos/RagnaTours/Pages/Exhibition/CreateExhibition.cshtml]
+[C:/Users/Tobia/Source/Repos/RagnaTours/Pages/Exhibition/CreateExhibition.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhoaWJpdGlvblxDcmVhdGVFeGhpYml0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/richa/Source/Repos/RagnaTours/Pages/Exhibition/DeleteExhibition.cshtml]
+[C:/Users/Tobia/Source/Repos/RagnaTours/Pages/Exhibition/DeleteExhibition.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhoaWJpdGlvblxEZWxldGVFeGhpYml0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/richa/Source/Repos/RagnaTours/Pages/Exhibition/EditExhibition.cshtml]
+[C:/Users/Tobia/Source/Repos/RagnaTours/Pages/Exhibition/EditExhibition.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhoaWJpdGlvblxFZGl0RXhoaWJpdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/richa/Source/Repos/RagnaTours/Pages/Exhibition/GetAllExhibitions.cshtml]
+[C:/Users/Tobia/Source/Repos/RagnaTours/Pages/Exhibition/GetAllExhibitions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhoaWJpdGlvblxHZXRBbGxFeGhpYml0aW9ucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/richa/Source/Repos/RagnaTours/Pages/Index.cshtml]
+[C:/Users/Tobia/Source/Repos/RagnaTours/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/richa/Source/Repos/RagnaTours/Pages/Map.cshtml]
+[C:/Users/Tobia/Source/Repos/RagnaTours/Pages/Map.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/richa/Source/Repos/RagnaTours/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Tobia/Source/Repos/RagnaTours/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/richa/Source/Repos/RagnaTours/Pages/StartTour.cshtml]
+[C:/Users/Tobia/Source/Repos/RagnaTours/Pages/StartTour.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhcnRUb3VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/richa/Source/Repos/RagnaTours/Pages/Themes.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhlbWVzLmNzaHRtbA==
+[C:/Users/Tobia/Source/Repos/RagnaTours/Pages/Theme/GetAllThemes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhlbWVcR2V0QWxsVGhlbWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/richa/Source/Repos/RagnaTours/Pages/_ViewImports.cshtml]
+[C:/Users/Tobia/Source/Repos/RagnaTours/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/richa/Source/Repos/RagnaTours/Pages/_ViewStart.cshtml]
+[C:/Users/Tobia/Source/Repos/RagnaTours/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/richa/Source/Repos/RagnaTours/Pages/Shared/_Layout.cshtml]
+[C:/Users/Tobia/Source/Repos/RagnaTours/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-kx0vy42acl

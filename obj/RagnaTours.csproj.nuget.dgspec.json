@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\richa\\Source\\Repos\\RagnaTours\\RagnaTours.csproj": {}
+    "C:\\Users\\Tobia\\Source\\Repos\\RagnaTours\\RagnaTours.csproj": {}
   },
   "projects": {
-    "C:\\Users\\richa\\Source\\Repos\\RagnaTours\\RagnaTours.csproj": {
+    "C:\\Users\\Tobia\\Source\\Repos\\RagnaTours\\RagnaTours.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\richa\\Source\\Repos\\RagnaTours\\RagnaTours.csproj",
+        "projectUniqueName": "C:\\Users\\Tobia\\Source\\Repos\\RagnaTours\\RagnaTours.csproj",
         "projectName": "RagnaTours",
-        "projectPath": "C:\\Users\\richa\\Source\\Repos\\RagnaTours\\RagnaTours.csproj",
-        "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\richa\\Source\\Repos\\RagnaTours\\obj\\",
+        "projectPath": "C:\\Users\\Tobia\\Source\\Repos\\RagnaTours\\RagnaTours.csproj",
+        "packagesPath": "C:\\Users\\Tobia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tobia\\Source\\Repos\\RagnaTours\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tobia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
             "Moq": {
               "target": "Package",
               "version": "[4.18.4, )"
@@ -48,9 +52,21 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
             "xunit": {
               "target": "Package",
               "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
             }
           },
           "imports": [
@@ -72,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
