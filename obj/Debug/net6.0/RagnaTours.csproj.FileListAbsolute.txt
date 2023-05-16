@@ -64,3 +64,14 @@ C:\Code\RagnaTours\obj\Debug\net6.0\refint\RagnaTours.dll
 C:\Code\RagnaTours\obj\Debug\net6.0\RagnaTours.pdb
 C:\Code\RagnaTours\obj\Debug\net6.0\RagnaTours.genruntimeconfig.cache
 C:\Code\RagnaTours\obj\Debug\net6.0\ref\RagnaTours.dll
+C:\Users\richa\Source\Repos\RagnaTours\obj\Debug\net6.0\RagnaTours.csproj.AssemblyReference.cache
+C:\Users\richa\Source\Repos\RagnaTours\obj\Debug\net6.0\RagnaTours.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\richa\Source\Repos\RagnaTours\obj\Debug\net6.0\RagnaTours.AssemblyInfoInputs.cache
+C:\Users\richa\Source\Repos\RagnaTours\obj\Debug\net6.0\RagnaTours.AssemblyInfo.cs
+C:\Users\richa\Source\Repos\RagnaTours\obj\Debug\net6.0\RagnaTours.csproj.CoreCompileInputs.cache
+C:\Users\richa\Source\Repos\RagnaTours\obj\Debug\net6.0\RagnaTours.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\richa\Source\Repos\RagnaTours\obj\Debug\net6.0\RagnaTours.RazorAssemblyInfo.cache
+C:\Users\richa\Source\Repos\RagnaTours\obj\Debug\net6.0\RagnaTours.RazorAssemblyInfo.cs
+C:\Users\richa\Source\Repos\RagnaTours\obj\Debug\net6.0\RagnaTours.dll
+C:\Users\richa\Source\Repos\RagnaTours\obj\Debug\net6.0\refint\RagnaTours.dll
+C:\Users\richa\Source\Repos\RagnaTours\obj\Debug\net6.0\RagnaTours.pdb

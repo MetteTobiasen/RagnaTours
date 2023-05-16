@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
+using Xunit;
 using RagnaTours.Interfaces;
 using RagnaTours.Models;
 using RagnaTours;

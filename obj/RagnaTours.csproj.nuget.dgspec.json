@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\richa\\source\\repos\\RagnaTours\\RagnaTours.csproj": {}
+    "C:\\Users\\richa\\Source\\Repos\\RagnaTours\\RagnaTours.csproj": {}
   },
   "projects": {
-    "C:\\Users\\richa\\source\\repos\\RagnaTours\\RagnaTours.csproj": {
+    "C:\\Users\\richa\\Source\\Repos\\RagnaTours\\RagnaTours.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\richa\\source\\repos\\RagnaTours\\RagnaTours.csproj",
+        "projectUniqueName": "C:\\Users\\richa\\Source\\Repos\\RagnaTours\\RagnaTours.csproj",
         "projectName": "RagnaTours",
-        "projectPath": "C:\\Users\\richa\\source\\repos\\RagnaTours\\RagnaTours.csproj",
+        "projectPath": "C:\\Users\\richa\\Source\\Repos\\RagnaTours\\RagnaTours.csproj",
         "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\richa\\source\\repos\\RagnaTours\\obj\\",
+        "outputPath": "C:\\Users\\richa\\Source\\Repos\\RagnaTours\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
             }
           },
           "imports": [
