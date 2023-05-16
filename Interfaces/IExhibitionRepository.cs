@@ -4,11 +4,11 @@ namespace RagnaTours.Interfaces
 {
     public interface IExhibitionRepository
     {
-        Dictionary<int, Exhibition> AllExhibition();
-        void AddExhibition(Exhibition exhibition);
-        Exhibition GetExhibition(int id);
-        void UpdateExhibition(Exhibition exhibition);
-        void DeleteExhibition(Exhibition exhibition);
-        Dictionary<int, Exhibition> FilterExhibition(string criteria);
+        public Dictionary<int, Exhibition> AllExhibition();
+        public void AddExhibition(Exhibition exhibition);
+        public Exhibition GetExhibition(int id);
+        public void UpdateExhibition(Exhibition exhibition);
+        public void DeleteExhibition(Exhibition exhibition);
+        public Dictionary<int, Exhibition> FilterExhibition(string criteria);
     }
 }

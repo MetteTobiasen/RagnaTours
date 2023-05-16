@@ -54,7 +54,7 @@ namespace RagnaTours.Services
             {
                 foreach (var e in exhibitions.Values)
                 {
-                    if (e.Name.StartsWith(criteria))
+                    if (e.Name.ToLower().StartsWith(criteria.ToLower()))
                     {
                         myExhibitions.Add(e.Id, e);
                     }

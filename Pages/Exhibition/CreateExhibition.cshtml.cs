@@ -30,7 +30,7 @@ namespace RagnaTours
 
             catalog.AddExhibition(Exhibition);
 
-            return RedirectToPage("GetAllExhibition");
+            return RedirectToPage("GetAllExhibitions");
         }
     }
 }
