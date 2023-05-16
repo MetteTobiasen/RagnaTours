@@ -1,7 +1,14 @@
-var builder = WebApplication.CreateBuilder(args);
+using RagnaTours.Interfaces;
+using RagnaTours.Services;
+
+
+
+    var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddSingleton<IExhibitionRepository, ExhibitionCatalog>();
+builder.Services.AddSingleton<IThemeRepository, ThemeCatalog>();
 
 var app = builder.Build();
 
