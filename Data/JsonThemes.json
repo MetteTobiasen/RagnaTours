@@ -1,3 +1,15 @@
 {
 
+  "1": {
+    "Id": 1,
+    "Name": "Ragnarock",
+    "Description": "test test test",
+    "ImageName": "FastUdstilling.jpg"
+  },
+  "2": {
+    "Id": 2,
+    "Name": "Roskilde Festival",
+    "Description": "test test test",
+    "ImageName": "RoskildeFestival.jpg"
+  }
 }
