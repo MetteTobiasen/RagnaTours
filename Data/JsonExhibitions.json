@@ -1,3 +1,45 @@
 {
 
+  "1": {
+    "Id": 1,
+    "Name": "Dansefeber",
+    "Description": "Tag dansesko på. Nyt look og nye trin drager. Dans baner vejen for ny musik. Det er med kroppen vi mærker musikken. Vi hengiver os til rytmer. I dans kan ungdommen give los og finde sig selv. Rytme er hjerteslag for den krop, der i danseskolen holdes i stram snor. Sanserne vækkes.",
+    "ImageName": "DanseFeber.JPEG",
+    "ThemeName": "Ragnarock"
+  },
+  "2": {
+    "Id": 2,
+    "Name": "Lad der blive lys",
+    "Description": "Farverne bølger og flyder. Et sanse trip. Det er psykedelisk i slutningen af 1960'erne: Bevidstheden udvides og forvrænges. Syn og hørelse smelter sammen. Lyset bliver en del af musikken og musikken en del af lyset. Koncertoplevelsen ændres for altid.",
+    "ImageName": "LadDerBliveLys.JPEG",
+    "ThemeName": "Ragnarock"
+  },
+  "3": {
+    "Id": 3,
+    "Name": "Demoteket",
+    "Description": "Det eneste vi skal bruge er en mikrofon. Og en båndoptager. Eller en computer med et lydkort. Vi laver demobånd, som vi altid har gjort eller deler musikken på nettet. Vi optager for at perfektionere vores sange. For at blive opdaget. Komme ud. Komme i kontakt. Med pladeselskaber, med musikere. Med jer.",
+    "ImageName": "Demoteket.JPEG",
+    "ThemeName": "Ragnarock"
+  },
+  "4": {
+    "Id": 4,
+    "Name": "Musikalske strømme",
+    "Description": "Danmarks musikscene påvirkes af det store udland. Musikerne lader sig inspirere af nye musikgenrer. Forskellige musikstrømme lever side om side; efterligner og afløser hinanden. Kontraster resulterer i nye mix. Grænserne er udviskede: hvor de starter, hvor de slutter - svært at sige! Det er nytænkning bygget på traditioner.",
+    "ImageName": "MusikalskeStrømme.JPEG",
+    "ThemeName": "Ragnarock"
+  },
+  "5": {
+    "Id": 5,
+    "Name": "Smattens magi",
+    "Description": "Roskilde Festival har altid forandret sig i takt med nye tiders unge. Den har omfavnet deres drømme om frihed og fest. Den har vist tænder, og den har svigtet i år 2000. Men Roskilde og dens publikum har altid rejst sig fra smatten - stærkere og smukkere. Roskilde er skabt af frivillige og formet af dets publikum igennem 50 år.",
+    "ImageName": "SamttensMagi.JPEG",
+    "ThemeName": "Roskilde Festival"
+  },
+  "6": {
+    "Id": 6,
+    "Name": "Frivillig",
+    "Description": "Der er mange grunde til at være frivillig. Fortjenesten fra 26.000 Skiburgere, armbåndet eller sammenholdet bag disken. Det fælles arbejde har skabt festivalen siden 1971. Det er det største fællesskab i fællesskabet. Og det minder ikke om den måde man arbejder nogen andre steder. Her leder førtidspensionisten en stor division. Direktøren renser lokummer.",
+    "ImageName": "Frivillig.JPEG",
+    "ThemeName": "Roskilde Festival"
+  }
 }
