@@ -34,8 +34,8 @@ namespace RagnaToursXUnitTest
             var viewResult = Assert.IsType<PageResult>(result);
             var actualMessages = Assert.IsType<Dictionary<int, Exhibition>>(myDictionary);
             Assert.Equal(2, myDictionary.Count);
-            Assert.Equal("Fast Udstilling", myDictionary[0].Name);
-            Assert.Equal("Roskilde Festival", myDictionary[1].Name);
+            Assert.Equal("Fast Udstilling", myDictionary[1].Name);
+            Assert.Equal("Roskilde Festival", myDictionary[2].Name);
 
         }
 
