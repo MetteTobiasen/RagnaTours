@@ -30,7 +30,8 @@ namespace RagnaTours.Services
         {
             return exhibitions[id];
         }
-
+        // FilterThemeName metoden tager exhibition listen og kører et foreach loop igennem den,
+        // og tilføjer alle exhibitions der har et "desiredTheme" der passer til "ThemeName" til en ny liste der hedder filteredExhibitions.
         public List<Exhibition> FilterThemeName(List<Exhibition> exhibitions, string desiredTheme)
         {
             List<Exhibition> filteredExhibitions = new List<Exhibition>();
