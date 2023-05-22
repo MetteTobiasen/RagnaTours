@@ -8,6 +8,7 @@ namespace RagnaTours.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public string ImageName { get; set; }
+        public string ThemeName { get; set; }
 
     }
 }
