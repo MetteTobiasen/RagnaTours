@@ -31,6 +31,21 @@ namespace RagnaTours.Services
             return exhibitions[id];
         }
 
+        public List<Exhibition> FilterThemeName(List<Exhibition> exhibitions, string desiredTheme)
+        {
+            List<Exhibition> filteredExhibitions = new List<Exhibition>();
+
+            foreach (Exhibition exhibition in exhibitions)
+            {
+                if (exhibition.ThemeName == desiredTheme)
+                {
+                    filteredExhibitions.Add(exhibition);
+                }
+            }
+
+            return filteredExhibitions;
+        }
+
         public void UpdateExhibition(Exhibition exhibition)
         {
             if (exhibition != null)
@@ -47,6 +62,7 @@ namespace RagnaTours.Services
             }
         }
 
+
         public Dictionary<int, Exhibition> FilterExhibition(string criteria)
         {
             Dictionary<int, Exhibition> myExhibitions = new Dictionary<int, Exhibition>();
@@ -62,5 +78,8 @@ namespace RagnaTours.Services
             }
             return myExhibitions;
         }
+
+        
+
     }
 }
