@@ -6,7 +6,7 @@ using RagnaTours.Interfaces;
 using RagnaTours.Models;
 using RagnaTours;
 
-namespace RagnaToursXUnitTest
+namespace RagnaTours.Test.UnitTests
 {
     public class GetAllExhibitionsTest
     {
