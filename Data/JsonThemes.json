@@ -3,13 +3,13 @@
   "1": {
     "Id": 1,
     "Name": "Ragnarock",
-    "Description": "test test test",
+    "Description": "Den faste udstilling hos Ragnarock tager dig igennem et spændende univers af musikkens historie",
     "ImageName": "FastUdstilling.jpg"
   },
   "2": {
     "Id": 2,
     "Name": "Roskilde Festival",
-    "Description": "test test test",
+    "Description": "Her kan du få smagen af den legendariske Roskilde Festival, her kan du få græsset mellem tæerne og musikken i hjertet",
     "ImageName": "RoskildeFestival.jpg"
   }
 }
