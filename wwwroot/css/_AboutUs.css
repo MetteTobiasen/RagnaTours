@@ -1,0 +1,12 @@
+﻿.aboutUs_container {
+    margin: auto 100px auto 100px;
+    line-height: 1.6;
+}
+.info {
+    display: flex;
+}
+.underInfo {
+    flex-basis: 50%;
+    height: 100%;
+    margin: 5px;
+}
