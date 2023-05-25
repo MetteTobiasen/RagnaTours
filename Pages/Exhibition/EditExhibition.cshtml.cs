@@ -9,13 +9,13 @@ namespace RagnaTours
 {
     public class EditExhibitionModel : PageModel
     {
-        IExhibitionRepository exhibition;
 
         [BindProperty]
         public Exhibition Exhibition { get; set; }
-        public EditExhibitionModel(IExhibitionRepository ex)
+        IExhibitionRepository exhibition;
+        public EditExhibitionModel(IExhibitionRepository repository)
         {
-            exhibition = ex;
+            exhibition = repository;
         }
         public void OnGet(int id)
         {
