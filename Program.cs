@@ -9,6 +9,8 @@ using RagnaTours.Services;
 builder.Services.AddRazorPages();
 builder.Services.AddSingleton<IExhibitionRepository, ExhibitionCatalog>();
 builder.Services.AddSingleton<IThemeRepository, ThemeCatalog>();
+builder.Services.AddTransient<IExhibitionRepository, ExhibitionJson>();
+builder.Services.AddTransient<IThemeRepository, ThemeJson>();
 
 var app = builder.Build();
 
