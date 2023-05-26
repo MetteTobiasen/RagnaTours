@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
 @import url(_AboutUs.css);
+@import url(_StartTour.css);
 
 html {
     font-size: 14px;
