@@ -4,15 +4,14 @@
     ViewData["Title"] = "GetAllThemes";
 }
 <h1>Temaer</h1>
-
-<p>
-    <a asp-page="CreateTheme">Tilføj tema</a>
+<p style="display:inline-block">
+    <a href="/Theme/CreateTheme" class="btn btn-success" role="button">Tilføj tema</a>
 </p>
 
-<form>
+<form style="display:inline-block">
     <p>
-        Search: <input type="text" asp-for="FilterCriteria" />
-        <input type="submit" value="Filter" />
+        Søg: <input type="text" asp-for="FilterCriteria" />
+        <input type="submit" value="Filtrer" align: right; />
     </p>
 </form>
 

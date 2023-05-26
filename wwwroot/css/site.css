@@ -83,3 +83,8 @@ body {
 .img_carousel {
     height: 600px;
 }
+form p {
+    position: absolute;
+    right: 5%;
+    width: 300px;
+}
