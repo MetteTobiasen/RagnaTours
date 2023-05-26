@@ -4,15 +4,14 @@
     ViewData["Title"] = "GetAllExhibitions";
 }
 <h1>Udstillinger</h1>
-
-<p>
-    <a asp-page="CreateExhibition">Tilføj udstilling</a>
+<p style="display:inline-block">
+    <a href="/Exhibition/CreateExhibition" class="btn btn-success" role="button">Tilføj udstilling</a>
 </p>
 
-<form>
+<form style="display:inline-block">
     <p>
         Søg: <input type="text" asp-for="FilterCriteria" />
-        <input type="submit" value="Filtrer" />
+        <input type="submit" value="Filtrer" align: right;/>
     </p>
 </form>
 

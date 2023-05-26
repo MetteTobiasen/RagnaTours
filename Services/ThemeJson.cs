@@ -66,17 +66,18 @@ namespace RagnaTours.Services
         public Dictionary<int, Theme> SearchTheme(string criteria)
         {
             Dictionary<int, Theme> myTheme = AllThemes();
+            Dictionary<int, Theme> filteredThemes = new Dictionary<int, Theme>();
             if (criteria != null)
             {
                 foreach (var t in myTheme.Values)
                 {
-                    if (t.Name.StartsWith(criteria))
+                    if (t.Name.ToLower().StartsWith(criteria.ToLower()))
                     {
-                        myTheme.Add(t.Id, t);
+                        filteredThemes.Add(t.Id, t);
                     }
                 }
             }
-            return myTheme;
+            return filteredThemes;
         }
     }
 }

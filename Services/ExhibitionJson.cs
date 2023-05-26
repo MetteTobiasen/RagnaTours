@@ -59,17 +59,18 @@ namespace RagnaTours.Services
         public Dictionary<int, Exhibition> FilterExhibition(string criteria)
         {
             Dictionary<int, Exhibition> myExhibitions = AllExhibition();
+            Dictionary<int, Exhibition> filteredExhibitions = new Dictionary<int, Exhibition>();
             if (criteria != null)
             {
                 foreach (var e in myExhibitions.Values)
                 {
-                    if (e.Name.StartsWith(criteria))
+                    if (e.Name.ToLower().StartsWith(criteria.ToLower()))
                     {
-                        myExhibitions.Add(e.Id, e);
+                        filteredExhibitions.Add(e.Id, e);
                     }
                 }
             }
-            return myExhibitions;
+            return filteredExhibitions;
         }
     }
 }
