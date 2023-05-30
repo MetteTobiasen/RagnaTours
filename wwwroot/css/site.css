@@ -111,3 +111,8 @@ form p {
     right: 5%;
     width: 300px;
 }
+
+.index-h2 {
+    border: 1px solid black;
+    background: black;
+}
